@@ -1,0 +1,1024 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --pale:hsl(193, 100%, 96%); 
+    --dark:hsl(192, 100%, 9%);
+    --blue:hsl(208, 11%, 55%);
+
+    --size:18px;
+    --famheadings: 'Poppins', sans-serif;
+    --fambodycta: 'Open Sans', sans-serif;
+
+
+}
+
+.section1{
+    background-image: url("../images/bg-hero-desktop.svg");
+    
+    
+    
+    
+}
+
+.section1 ,.content2 ,.content3 ,.content4{
+    width: 100%;
+    margin: auto;
+}
+
+.section1 header {
+    
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.section1 header img {
+     width: 200px;
+     height: 40px;
+     margin-top: 25px;
+}
+
+.section1 header a {
+    margin-top: 25px;
+    margin-right: 30px;
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: hsl(192, 100%, 9%);
+    text-decoration: none;
+
+
+}
+
+.button1{
+    color:var(--dark);
+    font-family: var(--fambodycta);
+}
+
+.section1 .content1 {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    align-items: center;
+    margin:auto;
+}
+
+.content1 .text1{
+    width: 50%;
+}
+
+.content1 .img1{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.img1 img {
+    width: 85%;
+    height: 490px;
+    
+    
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+
+.text1 h1{
+    font-family: var(--famheadings);
+    font-size: 40px ;
+    color: var(--dark);
+    
+    margin-bottom: 20px;
+}
+
+.text1 p{
+    font-family: var(--fambodycta);
+    font-size: var(--size);
+    color: var(--dark);
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.text1 a {
+    background-color: var(--pink);
+    width: 60%;
+    height: 40px;
+    border-radius: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.text1 a span{
+    color: white;
+    font-size: 18px;
+    font-family: var(--famheadings);
+
+}
+
+.content2 {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 440px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 14px rgba(0,0,0,0.07);
+    border-radius: 15px;
+   
+}
+
+.text2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    justify-content: center;
+}
+
+.text2 h2{
+    
+    font-size: 2em;
+    font-family: var(--famheadings);
+    color: var(--dark);
+}
+
+.text2 p{
+    font-size: 18px;
+    font-family: var(--fambodycta);
+    line-height: 30px;
+    width: 90%;
+}
+
+.img2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+ .img2 img{
+
+   width: 450px;
+   height: 400px;
+   padding: 20px;
+
+}
+
+.content3{
+
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 440px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 14px rgba(0,0,0,0.07);
+    border-radius: 15px;
+
+}
+
+.text3 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    justify-content: center;
+}
+
+.text3 h2{
+    
+    font-size: 2em;
+    font-family: var(--famheadings);
+    color: var(--dark);
+}
+
+.text3 p{
+    font-size: 18px;
+    font-family: var(--fambodycta);
+    line-height: 30px;
+    width: 90%;
+}
+
+.img3 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.img3 img{
+    width: 450px;
+    height: 400px;
+    padding: 20px;
+}
+
+.content4{
+
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 440px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 14px rgba(0,0,0,0.07);
+    border-radius: 15px;
+
+}
+
+.text4 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    justify-content: center;
+}
+
+.text4 h2{
+    
+    font-size: 2em;
+    font-family: var(--famheadings);
+    color: var(--dark);
+}
+
+.text4 p{
+    font-size: 18px;
+    font-family: var(--fambodycta);
+    line-height: 30px;
+    width: 90%;
+}
+
+.img4 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.img4 img{
+    width: 450px;
+    height: 400px;
+    padding: 20px;
+}
+
+.cta{
+    
+    width: 40%;
+    margin: auto;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 14px rgba(0,0,0,0.07);
+    border-radius: 16px;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 3;
+    
+    
+    
+}
+
+.cta .ctacaja{
+    width: 100%;
+    text-align: center;
+}
+
+.cta  .ctacaja a  {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin: auto;
+    height: 45px;
+    background-color: var(--pink);
+    text-decoration: none;
+    border-radius: 20px;
+
+}
+
+.cta a span {
+    font-size: 1.2em;
+    color: white;
+    font-family: var(--fambodycta);
+}
+
+.cta h1{
+    font-size: 1.5em;
+    color: var(--dark);
+    font-family: var(--famheadings);
+    margin-bottom: 15px;
+}
+
+footer {
+    width: 100%;
+    height: 560px;
+    background-color: #00252e;
+    margin-top: -80px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+   
+    
+}
+
+.info{
+    width: 400px;
+    color: var(--pale);
+    font-family: var(--famheadings);
+}
+
+.map , .phone , .mail {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.map img{
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+   
+}
+
+.map p{
+    width: 300px;
+}
+
+.phone img{
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+}
+
+.mail img{
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+}
+
+.lista1{
+   
+    width: 200px;
+    height: 200px;
+    
+    
+   
+    
+}
+
+.lista1 ul li{
+   
+    
+    margin-bottom: 25px;
+}
+
+.lista1 ul li a {
+    text-decoration: none;
+    color: var(--pale);
+    font-family: var(--famheadings);
+}
+
+.lista2 {
+    width: 200px;
+    height: 200px;
+}
+
+.lista2 ul  li {
+    margin-bottom: 25px;
+}
+
+.lista2 ul li a {
+    text-decoration: none;
+    color: var(--pale);
+    font-family: var(--famheadings);
+}
+
+.icons{
+    height: 200px;
+}
+
+.icons ul {
+  display: flex ;
+  justify-content: center;
+  flex-direction: row;
+  align-items: start;
+}
+.icons ul a i {
+    font-size: 24px;
+    color:white;
+    margin-left:15px;
+}
+
+
+.copy{
+
+   height: 50px;
+   position: relative;
+   top: 250px;
+    
+}
+.copy p{
+    color:white;
+    font-size: 18px;
+    font-family:var(--fambodycta)
+}
+
+
+
+@media screen and (max-width:576px){
+
+    .section1 header img {
+        width: 120px;
+        height: 40px;
+        margin-top: 25px;
+   }
+
+   .section1 header a {
+    width: 120px;
+    height: 40px;
+    margin-top: 25px;
+}
+
+.section1 header a span{
+    font-size: 16px;
+}
+
+.section1 .content1 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 1000px;
+    align-items: center;
+    margin:auto;
+}
+
+.content1 .text1{
+    width: 90%;
+    height: 750px;
+    text-align: center;
+}
+
+.text1 a {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.content1 .img1 {
+    width: 90%;
+    margin: auto;
+    height: 400px;
+    
+}
+
+.content1 .img1 img{
+    width: 90%;
+    height: 300px;
+}
+
+
+.content2{
+    width: 90%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    
+}
+
+
+
+
+.img2 {
+    width: 90%;
+    margin: auto;
+    height: 450px;
+}
+
+.img2 img{
+    height: 300px;
+}
+
+
+.text2{
+    width: 90%;
+    margin: auto;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text2 h2{
+    text-align: center;
+
+}
+
+.text2 p{
+   text-align: center;
+   font-size: 16px;
+   line-height: 35px;
+   font-size: var(--fambodycta);
+   
+}
+
+.content3{
+    width: 90%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    
+}
+
+
+
+
+.img3 {
+    width: 90%;
+    margin: auto;
+    height: 450px;
+}
+
+.img3 img{
+    height: 300px;
+}
+
+
+.text3{
+    width: 90%;
+    margin: auto;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text3 h2{
+    text-align: center;
+
+}
+
+.text3 p{
+   text-align: center;
+   font-size: 16px;
+   line-height: 35px;
+   font-size: var(--fambodycta);
+   
+}
+
+.content4{
+    width: 90%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    
+}
+
+
+
+
+.img4 {
+    width: 90%;
+    margin: auto;
+    height: 450px;
+}
+
+.img4 img{
+    height: 300px;
+}
+
+
+.text4{
+    width: 90%;
+    margin: auto;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text4 h2{
+    text-align: center;
+
+}
+
+.text4 p{
+   text-align: center;
+   font-size: 16px;
+   line-height: 35px;
+   font-size: var(--fambodycta);
+   
+}
+
+.cta {
+    width: 90%;
+    margin: auto;
+    height: 180px;
+}
+
+.cta .ctacaja a span {
+    font-size: 16px;
+}
+
+
+.cta .ctacaja h1 {
+    font-size: 20px;
+}
+
+footer{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 1000px;
+}
+
+.info{
+
+    width: 90%;
+    margin: auto;
+    height: 600px;
+    margin-top: 100px;
+}
+
+.lista1 , .lista2{
+    height: 250px;
+}
+
+.icons{
+    width: 70%;
+    margin: auto;
+
+}
+
+.icons ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.icons ul a i {
+    margin-left: 15px;
+    margin-right: 15px;
+    border: .5px solid white;
+    padding: 10px;
+    border-radius: 25px;
+
+}
+
+.copy{
+    position: relative;
+    top: 50px;
+    
+}
+
+.copy p{
+    font-size: 16px;
+}
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width:991px) {
+
+    .section1 header img {
+        width: 120px;
+        height: 40px;
+        margin-top: 25px;
+   }
+
+   .section1 header a {
+    width: 120px;
+    height: 40px;
+    margin-top: 25px;
+}
+
+.section1 header a span{
+    font-size: 16px;
+}
+
+.section1 .content1 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 1000px;
+    align-items: center;
+    margin:auto;
+}
+
+.content1 .text1{
+    width: 90%;
+    height: 750px;
+    text-align: center;
+}
+
+.text1 a {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.content1 .img1 {
+    width: 90%;
+    margin: auto;
+    height: 400px;
+    
+}
+
+.content1 .img1 img{
+    width: 90%;
+    height: 300px;
+}
+
+
+.content2{
+    width: 90%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    
+}
+
+
+
+
+.img2 {
+    width: 90%;
+    margin: auto;
+    height: 450px;
+}
+
+.img2 img{
+    height: 300px;
+}
+
+
+.text2{
+    width: 90%;
+    margin: auto;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text2 h2{
+    text-align: center;
+
+}
+
+.text2 p{
+   text-align: center;
+   font-size: 16px;
+   line-height: 35px;
+   font-size: var(--fambodycta);
+   
+}
+
+.content3{
+    width: 90%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    
+}
+
+
+
+
+.img3 {
+    width: 90%;
+    margin: auto;
+    height: 450px;
+}
+
+.img3 img{
+    height: 300px;
+}
+
+
+.text3{
+    width: 90%;
+    margin: auto;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text3 h2{
+    text-align: center;
+
+}
+
+.text3 p{
+   text-align: center;
+   font-size: 16px;
+   line-height: 35px;
+   font-size: var(--fambodycta);
+   
+}
+
+.content4{
+    width: 90%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    
+}
+
+
+
+
+.img4 {
+    width: 90%;
+    margin: auto;
+    height: 450px;
+}
+
+.img4 img{
+    height: 300px;
+}
+
+
+.text4{
+    width: 90%;
+    margin: auto;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text4 h2{
+    text-align: center;
+
+}
+
+.text4 p{
+   text-align: center;
+   font-size: 16px;
+   line-height: 35px;
+   font-size: var(--fambodycta);
+   
+}
+
+.cta {
+    width: 90%;
+    margin: auto;
+    height: 180px;
+    margin-top: 80px;
+}
+
+.cta .ctacaja a span {
+    font-size: 16px;
+}
+
+
+.cta .ctacaja h1 {
+    font-size: 20px;
+}
+
+footer{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 1000px;
+}
+
+.info{
+
+    width: 90%;
+    margin: auto;
+    height: 600px;
+    margin-top: 150px;
+}
+
+.lista1 , .lista2{
+    width: 90%;
+    margin: auto;
+    height: 250px;
+}
+
+.icons{
+    width: 70%;
+    margin: auto;
+
+}
+
+.icons ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.icons ul a i {
+    margin-left: 15px;
+    margin-right: 15px;
+    border: .5px solid white;
+    padding: 10px;
+    border-radius: 25px;
+
+}
+
+.copy{
+    position: relative;
+    top: 50px;
+    
+}
+
+.copy p{
+    font-size: 16px;
+}
+
+}
+
+
+@media screen and (max-width:1980px) and (min-width:991px){
+    .cta {
+        width: 60%;
+        margin: auto;
+        height: 180px;
+        margin-top: 80px;
+    }
+    
+    .cta .ctacaja a span {
+        font-size: 16px;
+    }
+    
+    
+    .cta .ctacaja h1 {
+        font-size: 20px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
